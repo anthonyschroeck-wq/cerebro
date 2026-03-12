@@ -438,7 +438,7 @@ export default function Cerebro() {
   const renderLanding = () => (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "100vh", position: "relative", zIndex: 1, padding: "40px 20px" }}>
       <div style={{ marginBottom: 48, textAlign: "center" }}>
-        <div style={{ fontFamily: T.fontDisplay, fontSize: 38, color: T.text, letterSpacing: 4, marginBottom: 8 }}>CEREBRO</div>
+        <div style={{ fontFamily: T.fontDisplay, fontSize: 38, color: T.text, letterSpacing: 4, marginBottom: 8 }}><img src="/cerebro-logo.svg" alt="Cerebro" style={{ width: 180, height: 180 }} /></div>
         <div style={{ fontFamily: T.fontMono, fontSize: 10, color: T.textTertiary, letterSpacing: 3, textTransform: "uppercase" as const }}>Voice of Everything</div>
       </div>
       <div style={{ width: "100%", maxWidth: 640 }}>
@@ -489,7 +489,7 @@ export default function Cerebro() {
         <button onClick={goBack} style={{ display: "flex", alignItems: "center", gap: 6, background: "none", border: "none", cursor: "pointer", fontFamily: T.font, fontSize: 13, color: T.textSecondary }}>
           <span style={{ fontSize: 16 }}>←</span> New Question
         </button>
-        <div style={{ fontFamily: T.fontDisplay, fontSize: 16, color: T.text, letterSpacing: 2 }}>CEREBRO</div>
+        <img src="/cerebro-logo.svg" alt="Cerebro" style={{ width: 48, height: 48 }} />
         <div style={{ fontFamily: T.fontMono, fontSize: 10, color: T.textTertiary, letterSpacing: 1 }}>{l1Data.sources} sources analyzed</div>
       </div>
       <div style={{ fontFamily: T.font, fontSize: 22, fontWeight: 500, color: T.text, marginBottom: 32, lineHeight: 1.4, paddingBottom: 24, borderBottom: `1px solid ${T.border}` }}>
@@ -575,7 +575,7 @@ export default function Cerebro() {
           <button onClick={goBack} style={{ display: "flex", alignItems: "center", gap: 6, background: "none", border: "none", cursor: "pointer", fontFamily: T.font, fontSize: 13, color: T.textSecondary }}>
             <span style={{ fontSize: 16 }}>←</span> Back to Map
           </button>
-          <div style={{ fontFamily: T.fontDisplay, fontSize: 16, color: T.text, letterSpacing: 2 }}>CEREBRO</div>
+          <img src="/cerebro-logo.svg" alt="Cerebro" style={{ width: 48, height: 48 }} />
           <div style={{ fontFamily: T.fontMono, fontSize: 9, letterSpacing: 2, textTransform: "uppercase" as const, color: T.accent, padding: "4px 10px", borderRadius: 6, background: T.accentMuted }}>Layer 3 · Deep Dive</div>
         </div>
         <div style={{ fontFamily: T.fontMono, fontSize: 11, color: T.textTertiary, marginBottom: 24, display: "flex", alignItems: "center", gap: 8 }}>
