@@ -438,6 +438,7 @@ export default function Cerebro() {
   const renderLanding = () => (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "100vh", position: "relative", zIndex: 1, padding: "40px 20px" }}>
       <div style={{ marginBottom: 48, textAlign: "center" }}>
+        <img src="/cerebro-logo.png" alt="Cerebro" style={{ width: 120, height: "auto", marginBottom: 24, opacity: 0.85 }} />
         <div style={{ fontFamily: T.fontDisplay, fontSize: 38, color: T.text, letterSpacing: 4, marginBottom: 8 }}>CEREBRO</div>
         <div style={{ fontFamily: T.fontMono, fontSize: 10, color: T.textTertiary, letterSpacing: 3, textTransform: "uppercase" as const }}>Voice of Everything</div>
       </div>
